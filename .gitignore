@@ -84,3 +84,5 @@ coverage/
 
 # Optional stylelint cache
 .stylelintcache
+
+notes.md
