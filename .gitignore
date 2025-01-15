@@ -1,0 +1,86 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Local environment files
+*.local
+.env
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# MacOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux system files
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Other Vite-related files
+vite.svg
+
+# Test coverage
+coverage/
+
+# Debug files
+*.pid
+*.seed
+*.tgz
+
+# Lint and formatting
+.eslintcache
+.prettiercache
+
+# Yarn Integrity
+.yarn-integrity
+
+# Optional npm cache directory
+.npm
+
+# Parcel-bundler cache
+.cache
+
+# Typescript cache
+*.tsbuildinfo
+
+# Optional eslint cache
+.eslintcache
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Optional stylelint cache
+.stylelintcache
