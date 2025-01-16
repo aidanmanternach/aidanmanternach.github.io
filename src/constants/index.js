@@ -49,6 +49,10 @@ import {
       title: "Computer Security Engineer",
       icon: backend,
     },
+    {
+      title: "Data Science Engineer",
+      icon: creator
+    },
   ];
   
   const technologies = [
@@ -60,10 +64,10 @@ import {
       name: "CPP",
       icon: cpp,
     },
-    {
-      name: "Java",
-      icon: java,
-    },
+    // {
+    //   name: "Java",
+    //   icon: java,
+    // },
     {
       name: "Python",
       icon: python,
@@ -80,10 +84,10 @@ import {
     //   name: "CSS 3",
     //   icon: css,
     // },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
+    // {
+    //   name: "JavaScript",
+    //   icon: javascript,
+    // },
     // {
     //   name: "TypeScript",
     //   icon: typescript,
@@ -104,26 +108,26 @@ import {
     //   name: "Node JS",
     //   icon: nodejs,
     // },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     // {
     //   name: "Three JS",
     //   icon: threejs,
     // },
-    {
-      name: "git",
-      icon: git,
-    },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
     // {
     //   name: "figma",
     //   icon: figma,
     // },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
@@ -159,33 +163,6 @@ import {
         "Collaborated with software lead to design and implement functionality for controlling and debugging hardware.",
         "Developed a customer facing GUI using C\# and Visual Studio to provide easy device control and rapid response.",
       ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
@@ -229,7 +206,7 @@ import {
       source_code_link: "https://github.com/ucsd-cse110-fa23/cse-110-project-team-14",
     },
     {
-      name: "Recipe Recommendation Systems",
+      name: "Recipe Recommender Systems",
       description:
         "Authored a paper comparing recipe recommendation systems by designing predictive models to estimate user ratings using metadata, interactions, and review text. Benchmarked approaches like latent factor models, Bag-of-Words, and neural network sentiment analysis.",
       tags: [
@@ -251,4 +228,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
