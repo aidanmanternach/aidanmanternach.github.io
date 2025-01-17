@@ -19,6 +19,20 @@
   display: block;
 }
 
+.offwhite-gradient {
+  background: #f2f0ef; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f2f0ef, 
+    #dcd9d3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f2f0ef, 
+    #dcd9d3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
