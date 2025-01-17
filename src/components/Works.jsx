@@ -12,7 +12,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{max: 45, scale: 1, speed: 450}}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[340px] w-full"
+        className={`bg-offWhiteComp p-5 rounded-2xl sm:w-[340px] w-full`}
       >
         <div className='relative w-full h-[230px]'>
           <img 
@@ -23,7 +23,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           <div className='absolute inset-0 flex justify-end m-3 card-mig_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="bg-black w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
                 src={github}
@@ -35,8 +35,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         </div>
 
         <div className='mt-5'>
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <h3 className="text-black font-bold text-[24px]">{name}</h3>
+          <p className='mt-2 text-gray text-[14px]'>{description}</p>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
@@ -62,7 +62,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-3 text-gray text-[17px] max-w-3xl leading-[30px]'
         >
           Following projects showcase my skills ...
         </motion.p>

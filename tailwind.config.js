@@ -13,6 +13,7 @@ module.exports = {
         "white-100": "#f3f3f3",
         gray: "#36454F",
         light_gray: "#828282",
+        offWhiteComp: "#e6e4e3",
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
