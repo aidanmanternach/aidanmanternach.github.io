@@ -1,11 +1,12 @@
 import { BrowserRouter } from "react-router-dom";
 import { Hero, Navbar, About, Experience, Works, Tech } from "./components/";
+import { styles } from "./styles";
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <div className={`bg-cover bg-no-repeat bg-center ${styles.offWhiteBackground}`}>
           <Navbar />
           <Hero />
         </div>
