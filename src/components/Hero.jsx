@@ -7,22 +7,22 @@ import { github, mail } from '../assets';
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
-      <div className={`absolute inset-0 max-w-7xl mx-auto flex flex-row sm:flex-col items-center gap-5`}>
-        <div className={`${styles.paddingX} ${styles.heroHeadText}`}>
+      <div className={`absolute inset-0 max-w-7xl mx-auto flex flex-col sm:flex-row mt-20 sm:mt-0 items-center gap-5`}>
+        <div className={`${styles.paddingX} ${styles.heroHeadText} mt-20 sm:mt-0 text-center sm:text-left`}>
           <h1><span className="text-black">Aidan <br></br> Manternach</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-gray`}>
+          <p className={`${styles.heroSubText} mt-2 text-gray text-center sm:text-left`}>
             Computer Engineer
           </p>
         </div>
         
-        <div className="flex flex-col sm:flex-row gap-8 ml-auto sm:ml-0 mt-12">
+        <div className="flex flex-row sm:flex-col gap-8 sm:ml-auto mt-20 sm:mt-12 justify-center sm:justify-start items-center">
           <a href="https://github.com/aidanmanternach" target="_blank" rel="noopener noreferrer">
             <button className="bg-transparent p-0 transform hover:scale-105 transition duration-300">
               <img src={github} alt="GitHub" className="w-16 h-16 filter invert" />
             </button>
           </a>
           
-          <a href="mailto:aidanconnor141@gmail.com">
+          <a href="mailto:example@gmail.com">
             <button className="bg-transparent p-0 transform hover:scale-105 transition duration-300">
               <img src={mail} alt="Email" className="w-16 h-16" />
             </button>
