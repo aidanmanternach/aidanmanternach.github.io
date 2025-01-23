@@ -13,6 +13,11 @@ const styles = {
     sectionSubText:
       "sm:text-[18px] text-[14px] text-gray uppercase tracking-wider",
 
+    sectionHeadTextDark:
+      "text-offWhite font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
+    sectionSubTextDark:
+      "sm:text-[18px] text-[14px] text-offWhiteComp uppercase tracking-wider",
+
     hoverEnlarge:
       "transition-transform duration-300 ease-in-out transform hover:scale-110",
 
@@ -21,6 +26,8 @@ const styles = {
 
     offWhiteComplement:
       "#e6e4e3",
+    offWhiteText:
+      "text-[#f2f0ef]",
   };
   
   export { styles };

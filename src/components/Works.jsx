@@ -7,6 +7,8 @@ import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
+import { useTheme } from './ThemeContext';
+
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -52,17 +54,19 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
 }
 
 const Works = () => {
+  const { theme } = useTheme();
+
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My Work</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
+        <p className={`${theme === 'light' ? styles.sectionSubText : styles.sectionSubTextDark}`}>My Work</p>
+        <h2 className={`${theme === 'light' ? styles.sectionHeadText : styles.sectionHeadTextDark}`}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-gray text-[17px] max-w-3xl leading-[30px]'
+          className={`mt-3 ${theme === 'light' ? 'text-gray' : 'text-offWhiteComp'} text-[17px] max-w-3xl leading-[30px]`}
         >
           Following projects showcase my skills ...
         </motion.p>
