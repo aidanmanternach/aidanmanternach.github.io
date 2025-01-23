@@ -4,7 +4,11 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { github, mail } from '../assets';
 
+import { useTheme } from './ThemeContext';
+
 const Hero = () => {
+  const { theme } = useTheme();
+  
   return (
     <section className="relative w-full h-screen mx-auto">
       <div className={`absolute inset-0 max-w-7xl mx-auto flex flex-col sm:flex-row mt-20 sm:mt-0 items-center gap-5`}>

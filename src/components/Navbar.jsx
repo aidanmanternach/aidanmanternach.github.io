@@ -1,18 +1,26 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
+import ThemeToggle from './ThemeToggle';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
+import { useTheme } from './ThemeContext';
 
 const Navbar = () => {
+  const { theme } = useTheme();
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 ${styles.offWhiteBackground}`}
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 ${theme == 'light' ? styles.offWhiteBackground : 'bg-black'}`}
     >
+
+      <div className="w-full flex justify-start items-center max-w-7xl mx-auto">
+        <ThemeToggle />
+      </div>
+
       <div className="w-full flex justify-end items-center max-w-7xl mx-auto">
         {/* <Link
           to="/" 
