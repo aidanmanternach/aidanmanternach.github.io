@@ -8,10 +8,12 @@ import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion';
 
-const ExperienceCard = ({ experience }) => (
+import { useTheme } from './ThemeContext';
+
+const ExperienceCard = ({ experience, theme }) => (
   <VerticalTimelineElement
-    contentStyle={{ background: `${styles.offWhiteComplement}`, color: 'black'}}
-    contentArrowStyle={{ borderRight: '7px solid #232631'}}
+    contentStyle={{ background: `${styles.offWhiteComplement}`, color: `${theme === 'light' ? 'black' : 'white'}`}}
+    contentArrowStyle={{ borderRight: `7px solid #232631`}}
     date={experience.date}
     iconStyle={{ background: experience.iconBg }}
     icon={
@@ -43,19 +45,21 @@ const ExperienceCard = ({ experience }) => (
 )
 
 const Experience = () => {
+  const { theme } = useTheme();
+
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+        <p className={`${theme === 'light' ? styles.sectionSubText : styles.sectionSubTextDark}`}>What I have done so far</p>
+        <h2 className={`${theme === 'light' ? styles.sectionHeadText : styles.sectionHeadTextDark}`}>Work Experience.</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline
-          lineColor={'black'}
+          lineColor={`${theme === 'light' ? 'black' : 'white'}`}
         >
           {experiences.map((experience, index) => (
-            <ExperienceCard key={index} experience={experience}/>
+            <ExperienceCard key={index} experience={experience} theme={theme}/>
           ))}
         </VerticalTimeline>
       </div>

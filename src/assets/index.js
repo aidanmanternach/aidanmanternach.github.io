@@ -30,7 +30,10 @@ import ucsd from "./company/ucsd.png";
 import rubiks_cube from "./rubiks_cube.png";
 import pantrypal from "./pantrypal.png";
 import research from "./research.png";
-import reciperecommendation from "./RecipeRecommendation.pdf"
+import reciperecommendation from "./RecipeRecommendation.pdf";
+
+import sun from "./sun.png";
+import moon from "./moon.png";
 
 export {
   logo,
@@ -58,4 +61,6 @@ export {
   pantrypal,
   research,
   reciperecommendation,
+  sun,
+  moon,
 };
