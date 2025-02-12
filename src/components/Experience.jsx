@@ -48,7 +48,7 @@ const Experience = () => {
   const { theme } = useTheme();
 
   return (
-    <>
+    <section id="work">
       <motion.div variants={textVariant()}>
         <p className={`${theme === 'light' ? styles.sectionSubText : styles.sectionSubTextDark}`}>What I have done so far</p>
         <h2 className={`${theme === 'light' ? styles.sectionHeadText : styles.sectionHeadTextDark}`}>Work Experience.</h2>
@@ -63,7 +63,7 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
-    </>
+    </section>
   )
 }
 
