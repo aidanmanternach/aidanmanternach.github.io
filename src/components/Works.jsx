@@ -57,7 +57,7 @@ const Works = () => {
   const { theme } = useTheme();
 
   return (
-    <>
+    <section id="projects">
       <motion.div variants={textVariant()}>
         <p className={`${theme === 'light' ? styles.sectionSubText : styles.sectionSubTextDark}`}>My Work</p>
         <h2 className={`${theme === 'light' ? styles.sectionHeadText : styles.sectionHeadTextDark}`}>Projects.</h2>
@@ -81,7 +81,7 @@ const Works = () => {
           />
         ))}
       </div>
-    </>
+    </section>
   )
 }
 
