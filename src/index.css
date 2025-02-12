@@ -4,6 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* For Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* For Chrome, Edge, Safari */
+body::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;

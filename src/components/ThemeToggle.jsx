@@ -13,7 +13,7 @@ const ThemeToggle = () => {
       <img
         src={theme === 'light' ? moon : sun}
         alt={theme === 'light' ? "Switch to Dark Mode" : "Switch to Light Mode"}
-        className={`w-12 h-12 ${theme === 'dark' ? 'filter invert' : ''}`}
+        className={`w-10 h-10 ${theme === 'dark' ? 'filter invert' : ''}`}
       />
     </button>
   );

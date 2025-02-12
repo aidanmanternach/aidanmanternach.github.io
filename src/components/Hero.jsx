@@ -19,7 +19,7 @@ const Hero = () => {
           </p>
         </div>
         
-        <div className="flex flex-row sm:flex-col gap-8 sm:ml-auto mt-20 sm:mt-12 justify-center sm:justify-start items-center">
+        <div className="flex flex-row sm:flex-col gap-8 sm:ml-[35%] mt-20 sm:mt-12 justify-center sm:justify-start items-center">
           <a href="https://github.com/aidanmanternach" target="_blank" rel="noopener noreferrer">
             <button className="bg-transparent p-0 transform hover:scale-105 transition duration-300">
               <img src={github} alt="GitHub" className={`w-16 h-16 ${theme === 'light' ? 'filter invert' : ''}`} />

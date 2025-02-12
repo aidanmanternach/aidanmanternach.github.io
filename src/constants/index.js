@@ -3,6 +3,10 @@ import {
     backend,
     creator,
     web,
+    software_engineer,
+    machine_learning,
+    computer_security,
+    data_science,
     c,
     cpp,
     java,
@@ -39,19 +43,19 @@ import {
   const services = [
     {
       title: "Software Engineer",
-      icon: web,
+      icon: software_engineer,
     },
     {
       title: "Machine Learning Engineer",
-      icon: mobile,
+      icon: machine_learning,
     },
     {
       title: "Computer Security Engineer",
-      icon: backend,
+      icon: computer_security,
     },
     {
       title: "Data Science Engineer",
-      icon: creator
+      icon: data_science
     },
   ];
   

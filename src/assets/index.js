@@ -27,6 +27,11 @@ import american_express from "./company/american_express.jpg";
 import extreme_waves from "./company/extreme_waves.webp";
 import ucsd from "./company/ucsd.png";
 
+import software_engineer from "./disciplines/software_engineer.png";
+import machine_learning from "./disciplines/machine_learning.png";
+import computer_security from "./disciplines/computer_security.png";
+import data_science from "./disciplines/data_science.png";
+
 import rubiks_cube from "./rubiks_cube.png";
 import pantrypal from "./pantrypal.png";
 import research from "./research.png";
@@ -57,6 +62,10 @@ export {
   american_express,
   extreme_waves,
   ucsd,
+  software_engineer,
+  machine_learning,
+  computer_security,
+  data_science,
   rubiks_cube,
   pantrypal,
   research,
