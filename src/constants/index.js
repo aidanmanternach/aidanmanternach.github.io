@@ -23,6 +23,7 @@ import {
     pantrypal,
     research,
     reciperecommendation,
+    tetris
   } from "../assets";
   
   export const navLinks = [
@@ -171,6 +172,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Tetris Reinforcement Learning",
+      description:
+        "Designed a playable tetris game in ReactJS that demonstrates reinforcement learning strategies Q-Learning and Deep Q-Networks.",
+      tags: [
+        {
+          name: "ReactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "pytorch",
+          color: "green-text-gradient",
+        },
+        {
+          name: "reinforcement learning",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tetris,
+      source_code_link: "https://aidanmanternach.github.io/tetris-rl/",
+    },
     {
       name: "Rubik's Cube in Space",
       description:
