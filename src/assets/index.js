@@ -36,6 +36,7 @@ import rubiks_cube from "./rubiks_cube.png";
 import pantrypal from "./pantrypal.png";
 import research from "./research.png";
 import reciperecommendation from "./RecipeRecommendation.pdf";
+import tetris from "./tetris-rl.jpg"
 
 import sun from "./sun.png";
 import moon from "./moon.png";
@@ -70,6 +71,7 @@ export {
   pantrypal,
   research,
   reciperecommendation,
+  tetris,
   sun,
   moon,
 };
