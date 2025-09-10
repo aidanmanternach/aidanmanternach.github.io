@@ -19,7 +19,8 @@ import c from "./tech/c.png";
 import cpp from "./tech/cpp.png";
 import python from "./tech/python.png";
 import pytorch from "./tech/pytorch.png";
-import java from "./tech/java.jpg";
+import java from "./tech/java.png";
+import golang from "./tech/golang.png";
 
 
 
@@ -57,6 +58,7 @@ export {
   javascript,
   python,
   pytorch,
+  golang,
   docker,
   git,
   mongodb,

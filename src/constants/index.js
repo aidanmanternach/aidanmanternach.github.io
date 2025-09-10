@@ -12,6 +12,7 @@ import {
     java,
     javascript,
     python,
+    golang,
     pytorch,
     docker,
     git,
@@ -61,18 +62,18 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "C",
-      icon: c,
-    },
+    // {
+    //   name: "C",
+    //   icon: c,
+    // },
     {
       name: "CPP",
       icon: cpp,
     },
-    // {
-    //   name: "Java",
-    //   icon: java,
-    // },
+    {
+      name: "Java",
+      icon: java,
+    },
     {
       name: "Python",
       icon: python,
@@ -136,6 +137,16 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Software Engineer Intern",
+      company_name: "American Express",
+      icon: american_express,
+      iconBg: "#E6DEDD",
+      date: "June 2025 - August 2025",
+      points: [
+        "Created an automated anomaly detection system using SARIMAX and Facebook Prophet, with a PySpark + SQL data pipeline scheduled via GCP Airflow, enabling scalable and reliable monitoring of time-series data.",
+      ],
+    },
     {
       title: "UCSD Computer Science Tutor",
       company_name: "University of California San Diego",
