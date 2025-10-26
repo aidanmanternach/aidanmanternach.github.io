@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { github, mail } from '../assets';
+import { github, mail, linkedin } from '../assets';
 
 import { useTheme } from './ThemeContext';
 
@@ -26,9 +26,14 @@ const Hero = () => {
             </button>
           </a>
           
-          <a href="mailto:example@gmail.com">
+          {/* <a href="mailto:example@gmail.com">
             <button className={`bg-transparent p-0 transform hover:scale-105 transition duration-300 ${theme === 'dark' ? 'filter invert' : ''}`}>
               <img src={mail} alt="Email" className="w-16 h-16" />
+            </button>
+          </a> */}
+          <a href="https://www.linkedin.com/in/aidan-manternach/" target="_blank" rel="noopener noreferrer">
+            <button className={`bg-transparent p-0 transform hover:scale-105 transition duration-300 ${theme === 'dark' ? 'filter invert' : ''}`}>
+              <img src={linkedin} alt="Linkedin" className="w-16 h-16" />
             </button>
           </a>
         </div>

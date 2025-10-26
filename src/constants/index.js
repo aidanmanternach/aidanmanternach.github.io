@@ -48,15 +48,15 @@ import {
       icon: software_engineer,
     },
     {
-      title: "Machine Learning Engineer",
+      title: "Machine Learning",
       icon: machine_learning,
     },
     {
-      title: "Computer Security Engineer",
+      title: "Computer Security",
       icon: computer_security,
     },
     {
-      title: "Data Science Engineer",
+      title: "Distributed Systems",
       icon: data_science
     },
   ];

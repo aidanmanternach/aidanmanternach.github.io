@@ -5,6 +5,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import mail from "./mail.webp"
+import linkedin from "./linkedin.jpg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -50,6 +51,7 @@ export {
   web,
   github,
   mail,
+  linkedin,
   menu,
   close,
   c,
