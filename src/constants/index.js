@@ -145,7 +145,7 @@ import {
       iconBg: "#ebdd1c",
       date: "June 2026 - September 2026",
       points: [
-        "Designed a GraphQL bulk extraction API and scalable report generation system using AWS Step Functions, EC2, and S3, enabling Sellers to retrieve financial reporting data.",
+        "Designed a GraphQL bulk extraction API and augmented a scalable report generation system using AWS EC2 and S3, enabling Sellers to retrieve financial data.",
       ],
     },
     {
