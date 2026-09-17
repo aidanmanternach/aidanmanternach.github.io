@@ -15,7 +15,7 @@ const Hero = () => {
         <div className={`${styles.paddingX} ${styles.heroHeadText} mt-20 sm:mt-0 text-center sm:text-left`}>
           <h1><span className={`${theme === "light" ? 'text-black' : 'text-[#f2f0ef]'}`}>Aidan <br></br> Manternach</span></h1>
           <p className={`${styles.heroSubText} mt-2 ${theme === "light" ? 'text-gray' : 'text-offWhiteComp'} text-center sm:text-left`}>
-            Computer Engineer
+            AI + Software Engineer
           </p>
         </div>
         

@@ -42,9 +42,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className={`mt-4 ${theme === 'light' ? 'text-gray' : 'text-offWhiteComp'} text-[17px] max-w-3xl leading-[30px]`}
       >
-        I hold a BS in Computer Engineering and am currently pursuing an MS in Machine Learning and Data Science at UC San Diego. 
-        With a strong passion for computer science and machine learning, I am always eager to explore new challenges and opportunities. 
-        Feel free to reach out if you'd like to connect.
+        I’m a Computer Engineering graduate and currently pursuing my MS in Data Science and Machine Learning at UC San Diego.
+        I’ve gained industry experience through software engineering internships at Amazon and American Express, where I’ve worked across backend systems, cloud infrastructure, data pipelines, and machine learning. I’m particularly interested in building scalable software and applying AI/ML to real-world problems.
+        I’m always looking to learn, take on new challenges, and build things that have an impact. Feel free to reach out if you’d like to connect!
+
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
