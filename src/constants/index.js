@@ -17,6 +17,7 @@ import {
     docker,
     git,
     mongodb,
+    amazon,
     american_express,
     extreme_waves,
     ucsd,
@@ -137,6 +138,16 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Software Development Engineer Co-op Intern",
+      company_name: "Amazon",
+      icon: amazon,
+      iconBg: "#ebdd1c",
+      date: "June 2026 - September 2026",
+      points: [
+        "Designed a GraphQL bulk extraction API and scalable report generation system using AWS Step Functions, EC2, and S3, enabling Sellers to retrieve financial reporting data.",
+      ],
+    },
     {
       title: "Software Engineer Intern",
       company_name: "American Express",

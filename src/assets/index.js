@@ -26,8 +26,9 @@ import golang from "./tech/golang.png";
 
 
 import american_express from "./company/american_express.jpg";
-import extreme_waves from "./company/extreme_waves.webp";
+import extreme_waves from "./company/extreme_waves.jpg";
 import ucsd from "./company/ucsd.png";
+import amazon from "./company/amazon.jpg"
 
 import software_engineer from "./disciplines/software_engineer.png";
 import machine_learning from "./disciplines/machine_learning.png";
@@ -64,6 +65,7 @@ export {
   docker,
   git,
   mongodb,
+  amazon,
   american_express,
   extreme_waves,
   ucsd,
